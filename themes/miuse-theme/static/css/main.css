@@ -18,7 +18,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
@@ -55,11 +54,42 @@ html {
   box-sizing: border-box; }
 
 /* primary */
+@font-face {
+  font-family: 'League Spartan';
+  src: url("fonts/leaguespartan/leaguespartan-bold.eot");
+  src: url("fonts/leaguespartan/leaguespartan-bold.eot?#iefix") format("embedded-opentype"), url("fonts/leaguespartan/leaguespartan-bold.woff2") format("woff2"), url("fonts/leaguespartan/leaguespartan-bold.woff") format("woff"), url("fonts/leaguespartan/leaguespartan-bold.ttf") format("truetype"), url("fonts/leaguespartan/leaguespartan-bold.svg#league_spartanbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #EBEFF5;
-  border: 40px solid white; }
+  background-color: #EBEFF5; }
+  @media screen and (min-width: 0px) {
+    body {
+      border: 2.4rem solid white; } }
+  @media screen and (min-width: 480px) {
+    body {
+      border: 3.2rem solid white; } }
+  @media screen and (min-width: 840px) {
+    body {
+      border: 4.0rem solid white; } }
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */ }
+
+@media screen and (min-width: 0px) {
+  #logo {
+    width: 14.4rem; } }
+
+@media screen and (min-width: 480px) {
+  #logo {
+    width: 20rem; } }
+
+@media screen and (min-width: 840px) {
+  #logo {
+    width: 32rem; } }
