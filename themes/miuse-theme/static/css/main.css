@@ -62,4 +62,4 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #EBEFF5;
-}
+  border: 40px solid white; }
