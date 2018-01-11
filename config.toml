@@ -1,4 +1,4 @@
-baseURL = "http://miuse.se/"
+baseURL = "https://www.miuse.se/"
 languageCode = "en-us"
 title = "miuse"
 theme = "miuse-theme"
