@@ -55,3 +55,9 @@ html {
   box-sizing: border-box; }
 
 /* primary */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
