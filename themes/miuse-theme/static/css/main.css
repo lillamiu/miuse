@@ -67,7 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #EBEFF5; }
+  background-image: radial-gradient(at top center, #F4F6FA 0%, #EBEFF5 100%); }
   @media screen and (min-width: 0px) {
     body {
       border: 2.4rem solid white; } }
@@ -81,6 +81,9 @@ body {
 html {
   font-size: 62.5%;
   /* 1rem = 10px */ }
+
+body *::selection {
+  background: rgba(112, 222, 189, 0.5); }
 
 h1 {
   font-family: 'League Spartan', sans-serif;
@@ -98,6 +101,18 @@ body {
   right: 0;
   text-align: center;
   mix-blend-mode: hard-light; }
+  @media screen and (min-width: 0px) {
+    .heading-text {
+      margin-left: 2.4rem;
+      margin-right: 2.4rem; } }
+  @media screen and (min-width: 480px) {
+    .heading-text {
+      margin-left: 3.2rem;
+      margin-right: 3.2rem; } }
+  @media screen and (min-width: 840px) {
+    .heading-text {
+      margin-left: 4.0rem;
+      margin-right: 4.0rem; } }
 
 .lamp {
   position: absolute;
@@ -107,7 +122,7 @@ body {
   flex-direction: column;
   align-items: center;
   transform-origin: top center;
-  animation: swing 10s ease-in-out infinite;
+  animation: swing 15s ease-in-out infinite;
   will-change: transform; }
 
 .cable {
@@ -133,8 +148,8 @@ body {
 .isolator {
   height: 32px;
   width: 32px;
-  background-color: white;
-  border-radius: 32px;
+  background-image: url("../images/isolator.png");
+  background-size: contain;
   position: absolute;
   z-index: 2; }
   .isolator.section-1 {
