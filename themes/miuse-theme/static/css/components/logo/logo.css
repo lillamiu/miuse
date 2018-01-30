@@ -1,0 +1,12 @@
+#logo {
+  position: absolute;
+  top: 9.6rem; }
+  @media screen and (min-width: 0px) {
+    #logo {
+      width: 14.4rem; } }
+  @media screen and (min-width: 480px) {
+    #logo {
+      width: 20rem; } }
+  @media screen and (min-width: 840px) {
+    #logo {
+      width: 32rem; } }
