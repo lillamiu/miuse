@@ -4,5 +4,6 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: origin-when-cross-origin
 
+/index.html
   Link: <{{ "css/_global-styles/main.css" | relURL }}>; rel=preload; as=style
   Link: <{{ "css/components/logo/logo.css" | relURL }}>; rel=preload; as=style
